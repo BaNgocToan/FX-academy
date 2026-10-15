@@ -1,0 +1,25 @@
+{
+  "name": "fx-academy",
+  "version": "1.0.0",
+  "description": "Forex Academy VN - website tu hoc Forex",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaNgocToan/FX-academy.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BaNgocToan/FX-academy/issues"
+  },
+  "homepage": "https://github.com/BaNgocToan/FX-academy#readme",
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
