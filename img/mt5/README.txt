@@ -1,0 +1,1 @@
+﻿Đặt ảnh chụp MT5 thật vào đây, đặt tên theo khoá hình (PNG): quotes, pip, account, order, order2, candleRead, tfmenu, trendUp, sr, addInd, ma, rsi, macd, bb, stoch, atr, fib, pin, doubleTop, tradeSetup, breakout, history, sweep. Ví dụ: order.png. Trang sẽ tự thay hình mô phỏng bằng ảnh thật (không cần sửa code).

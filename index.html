@@ -1,0 +1,77 @@
+﻿<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forex Academy VN – Học Forex từ cơ bản đến nâng cao</title>
+<meta name="description" content="Lộ trình tự học Forex bằng tiếng Việt: kiến thức nền tảng, chỉ báo kỹ thuật, chiến thuật, quản lý vốn và kinh nghiệm thực chiến. Miễn phí, có bài kiểm tra và công cụ tính toán.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2322c55e'/%3E%3Cpath d='M6 22l7-7 4 4 9-10' stroke='%23052e16' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=20">
+<script>
+  try { var t = localStorage.getItem('fx-theme'); if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'; document.documentElement.dataset.theme = t; } catch (e) { document.documentElement.dataset.theme = 'dark'; }
+</script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Bỏ qua, đến nội dung chính</a>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#/" data-i18n-aria="brand.aria" aria-label="Forex Academy VN – Trang chủ">
+      <span class="brand-mark" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-9"/><path d="M15 6h6v6"/></svg></span>
+      <span>Forex Academy <span class="muted" style="font-weight:600">VN</span></span>
+    </a>
+    <div class="spacer"></div>
+    <form class="search" role="search" id="searchForm">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <label class="sr" for="q" data-i18n="search.label">Tìm bài học</label>
+      <input id="q" type="search" placeholder="Tìm bài học…" data-i18n-ph="search.ph" autocomplete="off">
+    </form>
+    <div class="lang-wrap">
+      <label class="sr" for="langSel" data-i18n="lang.label">Ngôn ngữ</label>
+      <select id="langSel" class="lang-sel"><option value="vi" selected>Tiếng Việt</option></select>
+    </div>
+    <button class="icon-btn" id="themeBtn" type="button" data-i18n-aria="theme.aria" aria-label="Đổi giao diện sáng/tối">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>
+    </button>
+    <button class="icon-btn menu-btn" id="menuBtn" type="button" data-i18n-aria="menu.aria" aria-label="Mở menu" aria-expanded="false" aria-controls="nav">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+  <div class="nav-row">
+    <nav class="wrap nav" id="nav" data-i18n-aria="nav.aria" aria-label="Điều hướng chính">
+      <a href="#/" data-route="home" data-i18n="nav.home">Trang chủ</a>
+      <a href="#/lo-trinh" data-route="path" data-i18n="nav.path">Lộ trình</a>
+      <a href="#/cap/3" data-route="ind" data-i18n="nav.ind">Chỉ báo</a>
+      <a href="#/dong-ho" data-route="clock" data-i18n="nav.clock">Giờ giao dịch</a>
+      <a href="#/lich-kinh-te" data-route="cal" data-i18n="nav.cal">Lịch kinh tế</a>
+      <a href="#/chung-nhan" data-route="certs" data-i18n="nav.certs">Chứng nhận</a>
+      <a href="#/cong-cu" data-route="tools" data-i18n="nav.tools">Công cụ</a>
+      <a href="#/thuat-ngu" data-route="gloss" data-i18n="nav.gloss">Thuật ngữ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1"></main>
+
+<div class="risk" role="note">
+  <div class="wrap"><strong data-i18n="risk.strong">Cảnh báo rủi ro:</strong> <span data-i18n="risk.text">Giao dịch Forex và CFD có đòn bẩy, rủi ro cao và có thể mất toàn bộ vốn. Nội dung trên website chỉ nhằm mục đích giáo dục, không phải lời khuyên đầu tư.</span></div>
+</div>
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div><strong class="muted">Forex Academy VN</strong><br><span data-i18n="foot.tag">Học có lộ trình – giao dịch có kỷ luật.</span></div>
+    <div>
+      <a href="#/lo-trinh" data-i18n="foot.path">Lộ trình học</a> · <a href="#/cong-cu" data-i18n="foot.tools">Công cụ</a> · <a href="#/thuat-ngu" data-i18n="foot.gloss">Thuật ngữ</a>
+    </div>
+    <div>© <span id="yr"></span> <span data-i18n="foot.copy">Forex Academy VN. Nội dung mang tính tham khảo.</span></div>
+  </div>
+</footer>
+
+<script src="js/i18n.js?v=22"></script>
+<script src="js/data.js?v=17"></script>
+<script src="js/mt5.js?v=4"></script>
+<script src="js/app.js?v=18"></script>
+</body>
+</html>
